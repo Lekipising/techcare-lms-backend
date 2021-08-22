@@ -34,6 +34,10 @@ const Users = sequelize.define(
       type: Sequelize.INTEGER,
       allowNull: true,
     },
+    avatar: {
+      type: Sequelize.STRING(255),
+      allowNull: true,
+    },
   },
   {
     sequelize,
